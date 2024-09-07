@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    flex: 1; /* Ocupa o espaço restante entre header e footer */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../imgs/home-background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Fantasy', sans-serif;
+}
+
+.home-description {
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+

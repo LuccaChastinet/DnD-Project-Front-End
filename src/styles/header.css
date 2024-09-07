@@ -1,37 +1,42 @@
 .header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;  /* Define o posicionamento relativo para permitir centralização */
-  }
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;  /* Agora o header está fixo no topo */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Garante que o header ocupe a largura total da página */
+  z-index: 1000;  /* Garante que o header fique acima de outros elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
   
-  .logo {
-    font-size: 1.5em;
-    margin-left: 20px;
-  }
-  
-  .nav {
-    position: absolute;   /* Coloca a nav no centro do header */
-    left: 50%;
-    transform: translateX(-50%); /* Centraliza horizontalmente */
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    display: flex;
-    gap: 30px;  /* Espaçamento entre os links */
-  }
-  
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
-  
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
