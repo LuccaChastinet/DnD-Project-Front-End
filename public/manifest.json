@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "D&D Bunito",
+  "name": "Website for D&D for Bunito's games.",
   "icons": [
     {
       "src": "favicon.ico",
