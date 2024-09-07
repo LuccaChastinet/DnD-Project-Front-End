@@ -1,0 +1,19 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+    position: absolute; /* Faz o footer ficar na parte inferior da página */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

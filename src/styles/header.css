@@ -1,0 +1,37 @@
+.header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  /* Define o posicionamento relativo para permitir centralização */
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+  
+  .nav {
+    position: absolute;   /* Coloca a nav no centro do header */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;  /* Espaçamento entre os links */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
