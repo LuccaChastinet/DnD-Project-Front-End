@@ -60,3 +60,9 @@
     text-align: left;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .spell-list {
+        grid-template-columns: 1fr; /* Para telas menores, exibe uma coluna */
+    }
+}
